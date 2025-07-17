@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="addTiffin" onsubmit="addTiff(event)">
+        <label for="id1">number:</label>
+<input id="id1" type="number" placeholder="id" name="id">
+<br><br>
+  <label for="id2">Tiffin Name:</label>
+<input id="id2" type="text" placeholder="tiffin name" name="tiffinname">
+<br><br>
+  <label for="id3">Steamed:</label>
+<input id="id3" type="text" placeholder="steamed" name="steamed">
+<br><br>
+  <label for="id4">veg_IS:</label>
+<input id="id4" type="text" placeholder="is_veg" name="isveg">
+<br><br>
+  <label for="id5">Calories:</label>
+<input id="id5" type="number" placeholder="calories" name="calories">
+<br><br>
+  <label for="id6">City:</label>
+<input id="id6" type="text" placeholder="city" name="city">
+<br><br>
+<button>submit</button>
+    </form>
+    <script>
+        function addTiff(ev)
+        {
+            ev.preventDefault()
+                fetch("http://localhost:3300/getAllTiffins")
+                .then(res => res.json())
+                .then(data => console.log(data))
+        }
+    </script>
+</body>
+</html>

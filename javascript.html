@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form name="userForm" onsubmit="addstd(event)">
+        <input type="text" name="fullname" placeholder="fullname">
+        <br>
+        <input type="number" name="age" placeholder="age">
+        <br>
+        <button>submit</button>
+        <script>
+            function addstd(ev) {
+                ev.preventDefault();
+                var nst = {
+                    fullname: document.userForm.fullname.value,
+                    age: document.userForm.age.value
+                }
+
+                fetch("http://localhost:3300/student", {
+                    method: 'POST',
+                    headers:{
+                          'content-type':"application/json"
+                    },
+                    body: JSON.stringify(nst)
+                })
+                    .then(response => {
+                        console.log(response)
+                    })
+            }
+            fetch("http://localhost:3300/getAllTiffins")
+                .then(res => res.json())
+                .then(data => console.log(data))
+        </script>
+</body>
+
+</html>

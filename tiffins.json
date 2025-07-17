@@ -1,0 +1,273 @@
+[
+    {
+      "id": 1,
+      "name": "Idli",
+      "type": "Steamed",
+      "origin": "South India",
+      "is_veg": true,
+      "calories": 150,
+      "city": "Chennai"
+    },
+    {
+      "id": 2,
+      "name": "Dosa",
+      "type": "Pan-fried",
+      "origin": "South India",
+      "is_veg": true,
+      "calories": 200,
+      "city": "Bengaluru"
+    },
+    {
+      "id": 3,
+      "name": "Uttapam",
+      "type": "Griddle-cooked",
+      "origin": "South India",
+      "is_veg": true,
+      "calories": 220,
+      "city": "Hyderabad"
+    },
+    {
+      "id": 4,
+      "name": "Poha",
+      "type": "Light meal",
+      "origin": "Maharashtra",
+      "is_veg": true,
+      "calories": 180,
+      "city": "Nagpur"
+    },
+    {
+      "id": 5,
+      "name": "Upma",
+      "type": "Boiled",
+      "origin": "South India",
+      "is_veg": true,
+      "calories": 190,
+      "city": "Chennai"
+    },
+    {
+      "id": 6,
+      "name": "Pesarattu",
+      "type": "Pan-fried",
+      "origin": "Andhra Pradesh",
+      "is_veg": true,
+      "calories": 230,
+      "city": "Vijayawada"
+    },
+    {
+      "id": 7,
+      "name": "Vada",
+      "type": "Deep-fried",
+      "origin": "South India",
+      "is_veg": true,
+      "calories": 250,
+      "city": "Coimbatore"
+    },
+    {
+      "id": 8,
+      "name": "Aloo Paratha",
+      "type": "Pan-fried",
+      "origin": "North India",
+      "is_veg": true,
+      "calories": 300,
+      "city": "Amritsar"
+    },
+    {
+      "id": 9,
+      "name": "Chole Bhature",
+      "type": "Fried",
+      "origin": "North India",
+      "is_veg": true,
+      "calories": 450,
+      "city": "Delhi"
+    },
+    {
+      "id": 10,
+      "name": "Sabudana Khichdi",
+      "type": "Light meal",
+      "origin": "Maharashtra",
+      "is_veg": true,
+      "calories": 350,
+      "city": "Pune"
+    },
+    {
+      "id": 11,
+      "name": "Thepla",
+      "type": "Pan-fried",
+      "origin": "Gujarat",
+      "is_veg": true,
+      "calories": 210,
+      "city": "Ahmedabad"
+    },
+    {
+      "id": 12,
+      "name": "Kachori",
+      "type": "Deep-fried",
+      "origin": "Rajasthan",
+      "is_veg": true,
+      "calories": 400,
+      "city": "Jaipur"
+    },
+    {
+      "id": 13,
+      "name": "Misal Pav",
+      "type": "Spicy curry",
+      "origin": "Maharashtra",
+      "is_veg": true,
+      "calories": 380,
+      "city": "Kolhapur"
+    },
+    {
+      "id": 14,
+      "name": "Pav Bhaji",
+      "type": "Mashed curry",
+      "origin": "Mumbai",
+      "is_veg": true,
+      "calories": 400,
+      "city": "Mumbai"
+    },
+    {
+      "id": 15,
+      "name": "Bread Omelette",
+      "type": "Griddle-cooked",
+      "origin": "Pan India",
+      "is_veg": false,
+      "calories": 320,
+      "city": "Bangalore"
+    },
+    {
+      "id": 16,
+      "name": "Egg Dosa",
+      "type": "Pan-fried",
+      "origin": "South India",
+      "is_veg": false,
+      "calories": 300,
+      "city": "Tirupati"
+    },
+    {
+      "id": 17,
+      "name": "Masala Dosa",
+      "type": "Pan-fried",
+      "origin": "South India",
+      "is_veg": true,
+      "calories": 280,
+      "city": "Mysuru"
+    },
+    {
+      "id": 18,
+      "name": "Rava Dosa",
+      "type": "Pan-fried",
+      "origin": "South India",
+      "is_veg": true,
+      "calories": 250,
+      "city": "Madurai"
+    },
+    {
+      "id": 19,
+      "name": "Medu Vada",
+      "type": "Deep-fried",
+      "origin": "South India",
+      "is_veg": true,
+      "calories": 270,
+      "city": "Tirunelveli"
+    },
+    {
+      "id": 20,
+      "name": "Onion Pakoda",
+      "type": "Deep-fried",
+      "origin": "Pan India",
+      "is_veg": true,
+      "calories": 300,
+      "city": "Hyderabad"
+    },
+    {
+      "id": 21,
+      "name": "Moong Dal Chilla",
+      "type": "Pan-fried",
+      "origin": "North India",
+      "is_veg": true,
+      "calories": 210,
+      "city": "Kanpur"
+    },
+    {
+      "id": 22,
+      "name": "Besan Chilla",
+      "type": "Pan-fried",
+      "origin": "North India",
+      "is_veg": true,
+      "calories": 220,
+      "city": "Lucknow"
+    },
+    {
+      "id": 23,
+      "name": "Cornflakes Chaat",
+      "type": "Snack",
+      "origin": "Modern India",
+      "is_veg": true,
+      "calories": 150,
+      "city": "Noida"
+    },
+    {
+      "id": 24,
+      "name": "Veg Sandwich",
+      "type": "Grilled",
+      "origin": "Pan India",
+      "is_veg": true,
+      "calories": 270,
+      "city": "Delhi"
+    },
+    {
+      "id": 25,
+      "name": "Paneer Paratha",
+      "type": "Pan-fried",
+      "origin": "North India",
+      "is_veg": true,
+      "calories": 330,
+      "city": "Ludhiana"
+    },
+    {
+      "id": 26,
+      "name": "Rice Pongal",
+      "type": "Boiled",
+      "origin": "Tamil Nadu",
+      "is_veg": true,
+      "calories": 250,
+      "city": "Salem"
+    },
+    {
+      "id": 27,
+      "name": "Khichdi",
+      "type": "Boiled",
+      "origin": "Pan India",
+      "is_veg": true,
+      "calories": 300,
+      "city": "Patna"
+    },
+    {
+      "id": 28,
+      "name": "Tomato Bath",
+      "type": "Boiled",
+      "origin": "Karnataka",
+      "is_veg": true,
+      "calories": 290,
+      "city": "Hubli"
+    },
+    {
+      "id": 29,
+      "name": "Bisibele Bath",
+      "type": "Boiled",
+      "origin": "Karnataka",
+      "is_veg": true,
+      "calories": 310,
+      "city": "Mangalore"
+    },
+    {
+      "id": 30,
+      "name": "Poori Sabji",
+      "type": "Fried",
+      "origin": "North India",
+      "is_veg": true,
+      "calories": 420,
+      "city": "Varanasi"
+    }
+  ]
+
